@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* li {
+    list-style: none;
+} */
+
+.section-title {
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.para {
+    text-align: center;
+}
+
+/* //_____________Herrobanner__start________________// */
+
+.Herrobannerspardha {
+    background: url(../app/assets/images/background/mumbai-hero-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.herobanner-title {
+    color: #fff;
+    font-family: Playfair Display, serif;
+}
+
+.herobanner-para {
+    color: #fff;
+}
+
+.title-head {
+    padding-top: 40%;
+}
+
+/* //_____________Herrobanner__end________________// */
+
+/* //_____________Trusted_by_start________________// */
+.trustedy {
+    padding: 30px 0;
+}
+
+.trustby-text {
+    padding: 30px 20px;
+    background-color: #f1f5f9;
+}
+
+/* //_____________Trusted_by_end________________// */
+
+/* //_____________Courses_start________________// */
+.courses {
+    padding: 30px 0;
+}
+
+.courses-title {
+    font-family: Playfair Display, serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.courses_img {
+    text-align: center;
+}
+
+/* //_____________Courses_end________________// */
+
+.Bangalorecourses {
+    padding: 50px 0;
+}
+
+ .cars-section {
+    background-image:linear-gradient(rgba(241, 245, 249, 0.437),rgba(241, 245, 249, 0.289)), url('https://a.storyblok.com/f/114532/250x210/0ad6f95f4c/subtract.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*.cars-section2 {
+    width: 70%;
+    float: left;
+} */
+.package-cards {
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.monthscard {
+    background-color: #1C2C5A;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.package-cards-month {
+    width: 30%;
+    text-align: center;
+}
+
+.packegeprice {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cards-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.packegeprice-inr {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.book-nowbtn {
+    background-color: #FCB813;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.certificate-img {
+    border-radius: 50px;
+}
+
+.certificatecards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enquiry-btn {
+    border-radius: 5px;
+}
+
+.enquiry {
+    text-align: center;
+    font-weight: bold;
+    font-family: Playfair Display, serif;
+    background: #FCB813;
+    padding: 40px 10px;
+}
+
+.enquiry-btn {
+    padding: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.Academyvideo {
+    padding: 40px 0;
+    /* background-color: #f1f5f9; */
+    background-image:linear-gradient(rgba(241, 245, 249, 0.437),rgba(241, 245, 249, 0.289)), url('https://a.storyblok.com/f/114532/2878x762/031def5eb7/colored_waves.png/m/');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.lessons-div {
+    padding-top: 16%;
+}
+
+.certif-header {
+    padding: 20px 0 30px 0;
+}
+
+.certif-title {
+    font-weight: bold;
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+}
+
+.certif-para {
+    font-size: 14px;
+}
+
+.lessons-head {
+    font-weight: bold;
+    font-family: Playfair Display, serif;
+}
+
+.certif-coursers {
+    padding: 40px 0;
+}
