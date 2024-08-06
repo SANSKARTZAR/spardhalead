@@ -279,4 +279,15 @@ a:hover {
 
 .praticetool{
     padding: 30px 0;
+    background-color: #f1f5f9;
+}
+
+.OnlineCertification{
+    padding: 50px 0;
+}
+.certificateclass{
+    text-align: center;
+    font-weight: bold;
+    font-family: Playfair Display, serif;
+    font-size: 18px;
 }
