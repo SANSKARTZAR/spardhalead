@@ -17,6 +17,11 @@ a:hover {
     text-decoration: none;
 }
 
+hr{
+    background-color: #fff;
+    height: 5px;
+}
+
 /* li {
     list-style: none;
 } */
@@ -320,4 +325,11 @@ a:hover {
 }
 .list-div{
     padding: 20px;
+}
+.footer{
+    height: 80vh;
+    background-color: #1C2C5A;
+}
+.social-icons img{
+    margin: 10px;
 }

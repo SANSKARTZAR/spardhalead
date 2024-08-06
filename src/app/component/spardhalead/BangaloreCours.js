@@ -8,7 +8,7 @@ export default function BangaloreCours() {
                 <div className="container">
                     <h1 className="section-title">Select Your Package</h1>
                     <p className="para">Globally recognized Online Guitar Training Institute is now available in Mumbai. A comprehensive learning model applied to learn, grow and excel in Guitar. Gain the skills to be a successful Guitar professional.&nbsp;</p>
-
+                    <br />
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="cars-section">
