@@ -27,6 +27,7 @@ export default function CourseCertifications() {
                                     <p className="certif-para">You will learn from a qualified Guitar teacher, who has already done it all. Grade exams, stage shows and performances. Set your goals, then the Guitar teacher will help you with right lesson plan, exercises and track progress to get faster results.</p>
                                 </span>
                             </div>
+                            <br/>
                             <div className="certificatecards">
                                 <Image src={certification.src} width="90" height="90" alt="certificate-img" />
                                 <span>
@@ -34,6 +35,7 @@ export default function CourseCertifications() {
                                      <p className="certif-para">The whole point is to play your favourite songs in Guitar. Discuss your favourite songs with your Guitar teacher & your tutor will help you learn quickly. All you have to do is to focus on practise.</p>
                                 </span>
                             </div>
+                            <br/>
                             <div className="certificatecards">
                                 <Image src={certification.src} width="90" height="90" alt="certificate-img" />
                                 <span>

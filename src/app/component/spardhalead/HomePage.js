@@ -1,5 +1,6 @@
 import Academyvideo from "./AcademyVideo";
 import BangaloreCours from "./BangaloreCours";
+import CertifiedTest from "./CertifiedTestimonial";
 import CourseCertifications from "./CourseCertifications";
 import Courses from "./CoursesIn";
 import Footer from "./Footer";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <CourseCertifications/>
       <PraticeTool/>
       <OnlineCertification/>
+      <CertifiedTest/>
       <Footer/>
     </>
   );
