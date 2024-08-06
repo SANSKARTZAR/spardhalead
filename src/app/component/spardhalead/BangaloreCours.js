@@ -34,10 +34,26 @@ export default function BangaloreCours() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-12">
-
+                            <div className="list-div">
+                                <ul className="cources-list">
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Help understand guitar anatomy and concepts </li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Play 10+ melodies on guitar</li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Demonstrate proper finger technique and ergonomics </li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Distinguish and play different rhythmic patterns </li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Execute strumming and chords </li>
+                                </ul>
+                            </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-12">
-
+                            <div className="list-div">
+                                <ul className="cources-list">
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Help understand guitar anatomy and concepts </li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Play 10+ melodies on guitar</li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Demonstrate proper finger technique and ergonomics </li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Distinguish and play different rhythmic patterns </li>
+                                    <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Execute strumming and chords </li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div className="col-lg-6 col-md-6 col-12">

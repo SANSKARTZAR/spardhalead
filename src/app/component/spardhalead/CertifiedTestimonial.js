@@ -49,15 +49,16 @@ const CertifiedTest = () => {
                         <Slider {...settings}>
                             {testimonials.map((testimonial, index) => (
                                 <div key={index} style={{ padding: '20px', textAlign: 'center' }}>
-                                <div className="testimonial-div">
-                                    <Image
-                                        src={testimonial.image}
-                                        alt={testimonial.name}
-                                        style={{ borderRadius: '50%', width: '100px', height: '100px', objectFit: 'cover', marginBottom: '20px', marginLeft: '46%' }}
-                                    />
-                                    <p style={{ fontStyle: 'italic', fontSize: '1.2em' }}>"{testimonial.text}"</p>
-                                    <h3 style={{ marginTop: '10px' }}>{testimonial.name}</h3>
-                                </div>
+                                    <div className="testimonial-div">
+                                        <h4 className="testimonial-tilte">{testimonial.heading}</h4>
+                                        <p style={{ fontStyle: 'italic', fontSize: '1.2em' }}>"{testimonial.text}"</p>
+                                        <Image
+                                            src={testimonial.image}
+                                            alt={testimonial.name}
+                                            style={{ borderRadius: '50%', width: '60px', height: '60px', objectFit: 'cover', marginBottom: '20px', marginLeft: '48%' }}
+                                        />
+                                        <h5 style={{ marginTop: '10px' }}>{testimonial.name}</h5>
+                                    </div>
                                 </div>
                             ))}
                         </Slider>
