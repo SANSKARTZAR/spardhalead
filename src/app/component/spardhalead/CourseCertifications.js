@@ -23,6 +23,7 @@ export default function CourseCertifications() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-12">
+                        <div className="certificatecards-div">
                             <div className="certificatecards">
                                 <Image src={certification.src} width="90" height="90" alt="certificate-img" />
                                 <span>
@@ -43,6 +44,7 @@ export default function CourseCertifications() {
                                      <h1 className="certif-title">Friendly Online Guitar Teacher</h1>
                                      <p className="certif-para">Your Guitar teacher will keep you motivated and you can reach them to get your doubts cleared. You can send recorded videos and ask for feedback. The teacher will help you to achieve your goal and will support in your Guitar journey.</p>
                                 </span>
+                            </div>
                             </div>
                         </div>
                     </div>

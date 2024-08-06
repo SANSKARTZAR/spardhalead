@@ -151,6 +151,9 @@ a:hover {
     display: flex;
     justify-content: space-between;
 }
+.certificatecards-div{
+    padding-top: 10%;
+}
 
 .enquiry-btn {
     border-radius: 5px;
