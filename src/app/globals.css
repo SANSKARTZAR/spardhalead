@@ -24,8 +24,9 @@ a:hover {
 .section-title {
     text-align: center;
     font-family: Playfair Display, serif;
-    font-weight: bold;
-    font-size: 28px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    padding: 20px 0;
 }
 
 .para {
@@ -45,14 +46,44 @@ a:hover {
 .herobanner-title {
     color: #fff;
     font-family: Playfair Display, serif;
+    font-size: 3.75rem;
+    font-weight: 700;
 }
 
 .herobanner-para {
     color: #fff;
+    font-size: 1rem;
 }
 
 .title-head {
-    padding-top: 40%;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.herobanner-btn {
+    background-color: #FCB813;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #0f0f0f;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0;
+}
+.herobanner-btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
 }
 
 /* //_____________Herrobanner__end________________// */
@@ -112,11 +143,14 @@ a:hover {
     color: #fff;
     padding: 5px 15px;
     font-weight: bold;
+    margin: 0;
 }
 
 .package-cards-month {
-    width: 30%;
+    /* width: 30%; */
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .packegeprice {
@@ -127,6 +161,20 @@ a:hover {
 .cards-price {
     display: flex;
     justify-content: space-between;
+}
+.div-price{
+    display: flex;
+    align-items: center;
+}
+.pricediv {
+    font-size: 12px;
+}
+.offdiv{
+    font-size: 12px;
+    background-color: #dbeaef;
+    padding: 5px 10px;
+    margin: 0 20px;
+    border-radius: 50px;
 }
 
 .packegeprice-inr {
@@ -209,4 +257,26 @@ a:hover {
 
 .certif-coursers {
     padding: 40px 0;
+}
+
+
+/* --------------------pratice tool----------- */
+
+.praticetool-head{
+    text-align: center;
+    font-weight: bold;
+}
+.praticetool-card{
+    text-align: center;
+    font-weight: bold;
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+}
+
+.praticetool-cardtuner{
+    text-align: center;
+}
+
+.praticetool{
+    padding: 30px 0;
 }
