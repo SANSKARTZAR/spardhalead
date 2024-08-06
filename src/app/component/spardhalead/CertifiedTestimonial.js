@@ -53,7 +53,7 @@ const CertifiedTest = () => {
                                     <Image
                                         src={testimonial.image}
                                         alt={testimonial.name}
-                                        style={{ borderRadius: '50%', width: '100px', height: '100px', objectFit: 'cover', marginBottom: '20px', textAlign: 'center' }}
+                                        style={{ borderRadius: '50%', width: '100px', height: '100px', objectFit: 'cover', marginBottom: '20px', marginLeft: '46%' }}
                                     />
                                     <p style={{ fontStyle: 'italic', fontSize: '1.2em' }}>"{testimonial.text}"</p>
                                     <h3 style={{ marginTop: '10px' }}>{testimonial.name}</h3>
