@@ -204,6 +204,7 @@ hr{
 .certificatecards {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 .certificatecards-div{
     padding-top: 10%;
