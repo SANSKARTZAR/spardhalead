@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.container{
+    padding: 0 !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ a:hover {
     text-decoration: none;
 }
 
-hr{
+hr {
     background-color: #fff;
     height: 5px;
 }
@@ -64,14 +66,15 @@ hr{
 .title-head {
     width: 100%;
     height: auto;
-    position:absolute;
+    position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .herobanner-btn {
     background-color: #FCB813;
     border-radius: 10px;
@@ -86,6 +89,7 @@ hr{
     text-decoration: none;
     margin: 20px 0;
 }
+
 .herobanner-btn:hover {
     color: #fff;
     border: 1px solid #fff;
@@ -127,11 +131,12 @@ hr{
     padding: 50px 0;
 }
 
- .cars-section {
-    background-image:linear-gradient(rgba(241, 245, 249, 0.437),rgba(241, 245, 249, 0.289)), url('https://a.storyblok.com/f/114532/250x210/0ad6f95f4c/subtract.svg');
+.cars-section {
+    background-image: linear-gradient(rgba(241, 245, 249, 0.437), rgba(241, 245, 249, 0.289)), url('https://a.storyblok.com/f/114532/250x210/0ad6f95f4c/subtract.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 /*.cars-section2 {
     width: 70%;
     float: left;
@@ -168,14 +173,17 @@ hr{
     display: flex;
     justify-content: space-between;
 }
-.div-price{
+
+.div-price {
     display: flex;
     align-items: center;
 }
+
 .pricediv {
     font-size: 12px;
 }
-.offdiv{
+
+.offdiv {
     font-size: 12px;
     background-color: #dbeaef;
     padding: 5px 10px;
@@ -206,7 +214,8 @@ hr{
     justify-content: space-between;
     gap: 25px;
 }
-.certificatecards-div{
+
+.certificatecards-div {
     padding-top: 10%;
 }
 
@@ -233,7 +242,7 @@ hr{
 .Academyvideo {
     padding: 40px 0;
     /* background-color: #f1f5f9; */
-    background-image:linear-gradient(rgba(241, 245, 249, 0.437),rgba(241, 245, 249, 0.289)), url('https://a.storyblok.com/f/114532/2878x762/031def5eb7/colored_waves.png/m/');
+    background-image: linear-gradient(rgba(241, 245, 249, 0.437), rgba(241, 245, 249, 0.289)), url('https://a.storyblok.com/f/114532/2878x762/031def5eb7/colored_waves.png/m/');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -269,76 +278,117 @@ hr{
 
 /* --------------------pratice tool----------- */
 
-.praticetool-head{
+.praticetool-head {
     text-align: center;
     font-weight: bold;
 }
-.praticetool-card{
+
+.praticetool-card {
     text-align: center;
     font-weight: bold;
     font-family: Playfair Display, serif;
     font-size: 24px;
 }
 
-.praticetool-cardtuner{
+.praticetool-cardtuner {
     text-align: center;
 }
 
-.praticetool{
+.praticetool {
     padding: 30px 0;
     background-color: #f1f5f9;
 }
 
-.OnlineCertification{
+.OnlineCertification {
     padding: 50px 0;
 }
-.certificateclass{
+
+.certificateclass {
     text-align: center;
     font-weight: bold;
     font-family: Playfair Display, serif;
     font-size: 18px;
 }
 
-.testimonial-div{
-    text-align: center!important;
+.testimonial-div {
+    text-align: center !important;
     padding: 20px;
     background-color: #1C2C5A;
     border-radius: 10px;
     color: #fff;
 }
 
-.certif-test{
-    padding:30px 0;
+.certif-test {
+    padding: 30px 0;
 }
-.testimonial-tilte{
+
+.testimonial-tilte {
     text-align: center;
     font-weight: bold;
     font-family: Playfair Display, serif;
     /* font-size: 18px; */
 }
 
-.cources-list li{
+.cources-list li {
     list-style: none;
     margin: 10px 0;
 }
-.cources-list li i{
-   color: #FCB813;
-   font-size: 20px;
+
+.cources-list li i {
+    color: #FCB813;
+    font-size: 20px;
 }
-.list-div{
+
+.list-div {
     padding: 20px;
 }
-.footer{
+
+.footer {
     height: 80vh;
     background-color: #1C2C5A;
 }
-.social-icons img{
+
+.social-icons img {
     margin: 10px;
 }
-.btf-title{
+
+.btf-title {
     font-family: Playfair Display, serif;
 }
 
-.btf-content{
+.btf-content {
     text-align: justify;
+}
+
+
+
+
+@media(max-width:768px) {
+
+    .herobanner-title {
+        font-size: 38px;
+    }
+
+    .trustby-text {
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .courses_img img {
+        width: 100%;
+        height: auto!important;
+    }
+    .courses-title{
+        font-size: 25px;
+    }
+    .cources-list{
+        padding: 0;
+
+    }
+    .Academyvideo iframe{
+        padding: 20px;
+    }
+    .courses-para{
+        text-align: justify;
+    }
 }

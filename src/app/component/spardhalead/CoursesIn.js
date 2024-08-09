@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import manycourses from "@/app/assets/images/bangalore-many-course.png";
-import manycourses1 from "@/app/assets/images/bagalore-where-from-here.png";
+import manycourses from "@/app/assets/images/banner-guitar-01.png";
+import manycourses1 from "@/app/assets/images/banner-guitar-01.png";
 export default function Courses() {
   return (
     <>
