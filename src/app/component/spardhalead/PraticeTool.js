@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import guitartuner from "@/app/assets/images/guitar-tuner.png";
 import metronome from "@/app/assets/images/metronome.png";
-import ukulele from "@/app/assets/images/guitar-tuner.png";
+import ukulele from "@/app/assets/images/ukulele.png";
 
 export default function PraticeTool() {
     return (
