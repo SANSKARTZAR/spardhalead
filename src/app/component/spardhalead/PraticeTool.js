@@ -14,19 +14,19 @@ export default function PraticeTool() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="praticetool-cardtuner">
-                                <Image src={guitartuner.src} width="400" height="300" alt="many-cources" />
+                                <Image src={guitartuner.src} width="310" height="350" alt="many-cources" />
                                 <h2 className="praticetool-card">Guitar Tuner</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="praticetool-cardtuner">
-                                <Image src={metronome.src} width="400" height="300" alt="many-cources" />
+                                <Image src={metronome.src} width="310" height="350" alt="many-cources" />
                                 <h2 className="praticetool-card">Metronome</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="praticetool-cardtuner">
-                                <Image src={ukulele.src} width="400" height="300" alt="many-cources" />
+                                <Image src={ukulele.src} width="320" height="350" alt="many-cources" />
                                 <h2 className="praticetool-card">Ukulele Tuner</h2>
                             </div>
                         </div>
