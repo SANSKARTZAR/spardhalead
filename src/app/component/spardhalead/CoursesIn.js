@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import manycourses from "@/app/assets/images/banner-guitar-01.png";
-import manycourses1 from "@/app/assets/images/banner-guitar-01.png";
+import manycourses1 from "@/app/assets/images/banner-guitar-02.png";
 export default function Courses() {
   return (
     <>
@@ -33,6 +33,7 @@ export default function Courses() {
             </div>
             <div className="col-lg-6 col-md-6 col-12">
               <div className="courses_img">
+              <br/><br/>
                 <Image src={manycourses1.src} width="500" height="400" alt="many-cources" />
               </div>
             </div>
