@@ -37,8 +37,9 @@ const CertificateGiven = () => {
             <section className="certif-test">
                 <div className="container">
                     <div className="">
-                        <h1 className="section-title">Certificate Given</h1>
+                        <h1 className="section-title">Where Customers Turn Skills into Guitar Certification Success</h1>
                     </div>
+                    <br/>
                     <div>
                         <Slider {...settings}>
                             {testimonials.map((testimonial, index) => (

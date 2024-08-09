@@ -74,7 +74,7 @@ hr{
 }
 .herobanner-btn {
     background-color: #FCB813;
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
@@ -137,7 +137,7 @@ hr{
     float: left;
 } */
 .package-cards {
-    padding: 10px;
+    padding: 25px;
     border: 1px solid #cdcdcd;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -333,4 +333,8 @@ hr{
 }
 .social-icons img{
     margin: 10px;
+}
+
+.btf-content{
+    text-align: justify;
 }
