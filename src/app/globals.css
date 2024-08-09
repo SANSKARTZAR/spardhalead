@@ -334,6 +334,9 @@ hr{
 .social-icons img{
     margin: 10px;
 }
+.btf-title{
+    font-family: Playfair Display, serif;
+}
 
 .btf-content{
     text-align: justify;
