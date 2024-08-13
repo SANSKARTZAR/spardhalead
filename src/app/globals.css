@@ -399,4 +399,7 @@ hr {
     .courses-para{
         text-align: justify;
     }
+    .certif-coursers img{
+        width: 100%!important;
+    }
 }
