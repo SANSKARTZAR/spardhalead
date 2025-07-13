@@ -6,6 +6,7 @@ import CourseCertifications from "./CourseCertifications";
 import Courses from "./CoursesIn";
 import Footer from "./Footer";
 import HerroBanner from "./HerroBanner";
+import Kidsclass from "./Kidsclass";
 import OnlineCertification from "./OnlineCertificaion";
 import PraticeTool from "./PraticeTool";
 import TrustedBy from "./TrustedBy";
@@ -16,12 +17,13 @@ export default function HomePage() {
       <HerroBanner/>
       <TrustedBy/>
       <Courses/>
-      <BangaloreCours/>
+      {/* <BangaloreCours/> */}
       <Academyvideo/>
       <CourseCertifications/>
-      <PraticeTool/>
+      {/* <PraticeTool/> */}
       <OnlineCertification/>
       <CertifiedTest/>
+      <Kidsclass/>
       <CertificateGiven/>
       <Footer/>
     </>

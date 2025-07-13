@@ -9,21 +9,21 @@ import client1 from "@/app/assets/images/client/1.png";
 
 const testimonials = [
     {
-        name: "Ashka Jadhav",
-        heading: "Best Online Guitar Course",
-        text: "“I love how my teachers adapt the curriculum to my preferences so I excel at what I am good at and stay motivated while also working on improvement.”",
+        name: "Emma, 14 (London)",
+        heading: "- Piano Enthusiast",
+        text: "“Spardha's online piano classes helped me prepare for my ABRSM Grade 5 exam. Learning was fun, thanks to a tailored approach and patient guidance. Highly recommended!”",
         image: client1,
     },
     {
-        name: "Jane Smith",
-        heading: "Best Online Guitar Course",
-        text: "I'm very satisfied with the quality and speed.",
+        name: "Liam, 25 (Manchester)",
+        heading: "– Guitar Student",
+        text: "“At the beginning, I was looking for a course that was both structured and flexible. The guitar tutor made it so exciting, and now I am confidently playing my best songs.”",
         image: client1,
     },
     {
-        name: "Bob Johnson",
-        heading: "Best Online Guitar Course",
-        text: "Excellent support and great results. Five stars!",
+        name: "Priya, 30 (Birmingham)",
+        heading: "– Bollywood Vocals",
+        text: "“I wanted to learn Bollywood singing, but finding the right trainer in the UK was tough. Spardha connected me with an amazing teacher, and my vocal skills have improved tremendously!”",
         image: client1,
     }
 ];
@@ -43,7 +43,7 @@ const CertifiedTest = () => {
             <section className="certif-test">
                 <div className="container">
                     <div className="">
-                        <h1 className="section-title">Alumni Testimonials</h1>
+                        <h1 className="section-title">See What Our Students Want to Say About Us <br/>- Success Stories from UK Students</h1>
                     </div>
                     <div>
                         <Slider {...settings}>

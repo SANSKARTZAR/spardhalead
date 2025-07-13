@@ -4,8 +4,8 @@ export default function HerroBanner() {
       <section className="Herrobannerspardha">
         <div className="container">
           <div className="title-head">
-            <h1 className="herobanner-title">Guitar Training Courses in Mumbai</h1>
-            <p className="herobanner-para">Globally recognized Online Guitar Training Institute is now available in Mumbai.<br/> A comprehensive learning model applied to learn, grow and excel in Guitar. Gain the skills to be a successful Guitar professional.&nbsp;</p>
+            <h1 className="herobanner-title">Online Music Classes in the UK </h1>
+            <h3 className="herobanner-title2">Learn from the Best at Spardha School of Music<br/></h3>
             
             <br/>
             <a className="herobanner-btn">Enquiry Now</a>
