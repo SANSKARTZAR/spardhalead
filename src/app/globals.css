@@ -394,6 +394,9 @@ hr {
 
 @media(max-width:768px) {
 
+    section{
+        padding: 10px !important;
+    }
     .Herrobannerspardha {
         background: url(../app/assets/images/background/mumbai-hero-banner-mobile.jpg);
         background-repeat: no-repeat;
